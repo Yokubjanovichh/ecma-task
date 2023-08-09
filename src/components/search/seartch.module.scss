@@ -1,0 +1,31 @@
+.seartchMain {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  .seratchSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 38px;
+  }
+  .seartchIcon {
+    margin-top: 7px;
+  }
+  .buttons {
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.02s linear;
+  }
+  .hover {
+    padding: 7px;
+    &:hover {
+      border-radius: 7px;
+      background: rgba(69, 178, 107, 0.1);
+    }
+  }
+}

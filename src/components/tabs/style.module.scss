@@ -1,0 +1,50 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .slesh {
+    color: #b1b5c3;
+    font-size: 16px;
+  }
+
+  .tabsItem {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;
+    cursor: pointer;
+
+    .tabsItemText {
+      color: var(--neutrals-3, #353945);
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .tabsItemBtn {
+      display: flex;
+      width: 22px;
+      height: 22px;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      background-color: none;
+      color: #323232;
+    }
+  }
+
+  .tabsItemUser {
+    display: flex;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--353945, #353945);
+    border: none;
+    padding: 7px 27px 7px 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,13 @@
+.selectedMain {
+  border-radius: 8px;
+  background: var(--fcfcfd, #fcfcfd);
+  padding: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .selectedMainLeft {
+    display: flex;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,57 @@
+/* style.module.scss */
+.listMain {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.listMainLeft {
+  width: 60%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.2);
+}
+
+.listMainRight {
+  width: 40%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.2);
+  padding: 10px;
+}
+
+.listMainRightTitle {
+  border-radius: 6px;
+  background: #353945;
+  padding: 8px 15px;
+
+  p {
+    color: #fcfcfd;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.listMainRightList {
+  height: 600px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  .listMainRightItems {
+    border-radius: 6px;
+    background: #fcfcfd;
+    padding: 10px 15px;
+
+    p {
+      color: #23262f;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}
